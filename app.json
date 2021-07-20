@@ -9,7 +9,7 @@
     "Rename"
   ],
   "success_url": "https://t.me/zero_two_renamer_bot"
-  "website": "https://github.com/Darling-Code002",
+  "website",
   "repository": "https://github.com/Darling-Code002/filerenamebot",
   "env": {
     "WEBHOOK": {
