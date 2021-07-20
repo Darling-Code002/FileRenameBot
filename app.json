@@ -8,7 +8,7 @@
     "source",
     "Rename"
   ],
-  "success_url": "https://t.me/fateunionchat",
+  "success_url": "https://telegram.me/fateunionchat",
   "website": "https://github.com/Darling-Code002",
   "repository": "https://github.com/Darling-Code002/FileRenameBot",
   "env": {
