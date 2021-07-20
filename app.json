@@ -8,7 +8,7 @@
     "source",
     "Rename"
   ],
-  "success_url": "/start",
+  "success_url": "https://t.me/Zero_two_renamer_bot",
   "website": "https://github.com/Darling-Code002",
   "repository": "https://github.com/Darling-Code002/FileRenameBot",
   "env": {
