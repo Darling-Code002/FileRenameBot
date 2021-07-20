@@ -9,7 +9,7 @@
     "Rename"
   ],
   "success_url": "https://t.me/zero_two_renamer_bot"
-  "website": "https://github.com/No-OnE-Kn0wS-Me",
+  "website" "https://github.com/No-OnE-Kn0wS-Me",
   "repository": "https://github.com/No-OnE-Kn0wS-Me/FileRenameBot",
   "env": {
     "WEBHOOK": {
