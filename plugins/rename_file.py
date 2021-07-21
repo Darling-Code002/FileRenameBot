@@ -37,8 +37,8 @@ from hachoir.parser import createParser
 from PIL import Image
 from database.database import *
 
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
-#@Mai_bOTs.on_message((filters.document | filters.video) & ~filters.edited)
+#@For_otaku.on_message((filters.document | filters.video) & ~filters.edited & ~filters.chat(chat_id))
+#@For_otaku.on_message((filters.document | filters.video) & ~filters.edited)
 #async def newfile(bot, update):
     #if update.document:
         #await bot.forward_messages(
@@ -53,7 +53,7 @@ from database.database import *
              #message_ids = update.message_id
        #)  
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["rename"]))
+@For_otaku.on_message(pyrogram.filters.command(["rename"]))
 async def rename_doc(bot, update):
     update_channel = Config.UPDATE_CHANNEL
     if update_channel:
