@@ -73,7 +73,7 @@ async def help_user(bot, update):
         )
     )       
 
-@Mai_bOTs.on_message(pyrogram.filters.command(["start"]))
+@For_otaku.on_message(pyrogram.filters.command(["start"]))
 async def start_me(bot, update):
     if update.from_user.id in Config.BANNED_USERS:
         await update.reply_text("You are Banned")
@@ -102,12 +102,10 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('Support Channel', url='https://t.me/fateunionchat'),
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Source', url='https://github.com/Darling-Code002/FileRenameBot')
                 ]
             ]
         ),
@@ -115,8 +113,8 @@ async def start_me(bot, update):
     )
             return 
 
-@Mai_bOTs.on_callback_query()
-async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
+@fateunionchat.on_callback_query()
+async def cb_handler(client: fateunionchat , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
